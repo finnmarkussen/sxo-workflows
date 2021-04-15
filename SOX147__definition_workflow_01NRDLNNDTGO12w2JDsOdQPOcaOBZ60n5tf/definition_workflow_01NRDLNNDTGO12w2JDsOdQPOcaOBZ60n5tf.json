@@ -22,6 +22,19 @@
       {
         "schema_id": "datatype.string",
         "properties": {
+          "value": "",
+          "scope": "input",
+          "name": "observable_value",
+          "type": "datatype.string",
+          "is_required": false,
+          "is_invisible": false
+        },
+        "unique_name": "variable_workflow_01NRHQ8UVRJ6P4ydfZFnJ9KjipiWpW7PrKD",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
           "value": "Bret",
           "scope": "local",
           "name": "username",
@@ -37,25 +50,12 @@
         "properties": {
           "value": "",
           "scope": "local",
-          "name": "results_jsonpath",
+          "name": "Resultat_loop",
           "type": "datatype.string",
           "is_required": false,
           "is_invisible": false
         },
-        "unique_name": "variable_workflow_01NRG8Y9XA4D51L0dbKffdigA21oPsRG2Df",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "input",
-          "name": "observable_value",
-          "type": "datatype.string",
-          "is_required": false,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01NRHQ8UVRJ6P4ydfZFnJ9KjipiWpW7PrKD",
+        "unique_name": "variable_workflow_01NRF6SG6DL1A2teoi1vCDrCXdfSnU9vo9u",
         "object_type": "variable_workflow"
       },
       {
@@ -63,12 +63,12 @@
         "properties": {
           "value": "",
           "scope": "local",
-          "name": "Resultat_loop",
+          "name": "results_jsonpath",
           "type": "datatype.string",
           "is_required": false,
           "is_invisible": false
         },
-        "unique_name": "variable_workflow_01NRF6SG6DL1A2teoi1vCDrCXdfSnU9vo9u",
+        "unique_name": "variable_workflow_01NRG8Y9XA4D51L0dbKffdigA21oPsRG2Df",
         "object_type": "variable_workflow"
       }
     ],
